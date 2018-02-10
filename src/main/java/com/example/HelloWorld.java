@@ -9,10 +9,10 @@ import java.io.*;
 import java.util.*;
 
 public class HelloWorld {
-  public HelloWorld() {
+  public HelloWorld(String name) {
+     System.out.println("Hello "+ name);
   }
   public static void main(String[] args) {
-     HelloWorld hw = new HelloWorld();
-     System.out.println("Hello");
+     HelloWorld hw = new HelloWorld(args[0]);
   }
 }
