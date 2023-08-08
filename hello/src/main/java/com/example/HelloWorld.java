@@ -15,7 +15,7 @@ public class HelloWorld {
   }
 
   public void wish() {
-     System.out.println("Hello "+ name);
+     System.out.println(WishString.getWish() + " " + name);
   }
 
   public static void main(String[] args) {
